@@ -15,6 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
 public class SimpleInsertDaoTest {
+
     @Autowired
     private SimpleInsertDao simpleInsertDao;
     @Autowired

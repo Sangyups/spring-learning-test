@@ -15,6 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @JdbcTest
 public class QueryingDaoTest {
+
     private QueryingDAO queryingDAO;
 
     @Autowired
